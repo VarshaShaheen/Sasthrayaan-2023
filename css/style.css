@@ -1067,9 +1067,9 @@ ol {
 }
 
 .cs-text .ct-address p {
-	font-size: 18px;
+	font-size: 15px;
 	color: #171822;
-	line-height: 30px;
+	line-height: 24px;
 	margin-top: 8px;
 }
 
@@ -1078,9 +1078,9 @@ ol {
 }
 
 .cs-text ul li {
-	font-size: 18px;
+	font-size: 15px;
 	color: #171822;
-	line-height: 36px;
+	line-height: 24px;
 	list-style-type: none;
 	display: inline-block;
 	margin-right: 42px;
@@ -1102,9 +1102,9 @@ ol {
 }
 
 .cs-text .ct-links p {
-	font-size: 18px;
+	font-size: 15px;
 	color: #171822;
-	line-height: 30px;
+	line-height: 24px;
 	margin-top: 8px;
 }
 
