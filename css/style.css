@@ -131,6 +131,11 @@ ol {
 	margin-bottom: 10px;
 }
 
+.stall-row{
+	display: flex;
+	align-items: center;
+}
+
 .section-title p {
 	font-size: 18px;
 	color: #6a6b7c;
@@ -139,7 +144,12 @@ ol {
 
 .set-bg {
 	background-repeat: no-repeat;
-	background-position: top center;
+	margin-right: 2px;
+}
+
+.stall-img{
+	object-fit: cover;
+	background-repeat: no-repeat;
 }
 
 .spad {
@@ -2263,6 +2273,7 @@ ol {
 	}
 }
 
+
 @media only screen and (max-width: 991px) {
 	.schedule-tab .st-content .sc-pic {
 		text-align: left;
@@ -2503,4 +2514,16 @@ ol {
 		line-height: 35px;
 		margin-left: 5px;
 	}
+	.stall-row{
+		display: block;
+	}
 }
+
+.stall-link{
+	color: #f44949;
+
+}
+
+
+
+
