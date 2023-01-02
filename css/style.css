@@ -38,6 +38,7 @@ body {
 	font-family: "Work Sans", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
+	overflow-x: hidden;
 }
 
 h1,
