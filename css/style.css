@@ -114,6 +114,11 @@ ol {
   Helper CSS
 -----------------------*/
 
+.about-img{
+	width: 100px;
+	height: 494px;
+}
+
 .section-title {
 	text-align: center;
 	margin-bottom: 52px;
