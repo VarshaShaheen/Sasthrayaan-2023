@@ -143,8 +143,8 @@ ol {
 }
 
 .set-bg {
-	background-repeat: no-repeat;
-	margin-right: 2px;
+	background-size: cover;
+	background-position: top center;
 }
 
 .stall-img{
