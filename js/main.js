@@ -121,21 +121,25 @@
     });
 
 })(jQuery);
-function translateButton(){
-    document.getElementById("about-para").innerHTML="കൊച്ചി ശാസ്ത്ര-സാങ്കേതിക സർ" +
-        "വകലാശാലയിെല എല്ലാ പഠനഗേവഷണ വിഭാഗšളƧം െപാതുജനšൾŚായി തുറŹുെകാടുŚുŹു.\n" +
-        "2023 ജനുവരി 23, 24, 25 തീയതികളിൽ. വിദŖാർഥികൾ, അധŖാപകർ,\n" +
-        "രŜകർŮാŚൾ, വŖവസായികൾ അšെന ആർŚും കുസാƃിൽ\n" +
-        "വŹ് േകരളŮിെല ഏƃവും മികŢ ശാŏŗത-സാേŠതിക\n" +
-        "സർƅകലാശാലെയ കŪറിയാം. വിവിധ വിഭാഗšൾ കൂടാെത\n" +
-        "െസŀററുകൾ, േഹാƊലുകൾ, ൈലŗബറി, കളിƉലšൾ, കാŀറീൻ,\n" +
-        "െസമിനാർ േകാംƗĭŏ എŹിšെന എലīാെമലīാം ആ ദിവസšളിൽ\n" +
-        "നിšൾŚ് സřാഗതേമാതും. കുŨികൾŚ് അവരുെട\n" +
-        "സřŁനകരിയറിെനŚുറിŢ് അവിെടയുƄ വിദŖാർഥികളƧമായും,\n" +
-        "ഗേവഷകരുമായും, അധŖാപകരുമായും ഒരു േമശņŚ് ചുƃƧമിരുŹ്\n" +
-        "സംസാരിŚാം. പരിƉിതി സൗഹൃദവും, വിദŖാർůിസൗഹൃദവുമായ\n" +
-        "കŖാംപŏ അടുŮറിയാം.\n" +
-        "സർƅകലാശാലയും സമൂഹവും തƁിലുƄ അകലം ഇവിെട\n" +
-        "േനർŮതാവുŹു. േനർŮുേനർŮില\n" +
-        "īാതാവുŹു. ഏവർŚും സřാഗതം.."
+let count = 0;
+function translateButton() {
+
+    if (count % 2 === 0) {
+        document.getElementById("about-para").innerHTML = "നാക് എ+ ഗ്രേഡോടെ വീണ്ടും അംഗീകാരം നേടിയ കൊച്ചി ശാസ്ത്ര-സാങ്കേതിക സർ" +
+            "വകലാശാല(കുസാറ്റ്) അതിന്റെ വിവിധ വകുപ്പുകളിൽ നടത്തുന്ന ഊർജ്ജസ്വലവും സജീവവുമായ ഗവേഷണ പ്രവർത്തനങ്ങൾ പ്രദർശിപ്പിക്കുന്നതിനായി ശാസ്ത്രയാൻ  മൂന്നാം പതിപ്പ് സംഘടിപ്പിക്കുന്നു. " +"കുസാറ്റിൽ ലഭ്യമായ അത്യാധുനിക സൗകര്യങ്ങൾ, തത്സമയ പ്രദർശനങ്ങൾ, പ്രവർത്തന മാതൃകകൾ, അവതരണങ്ങൾ എന്നിവയോടെ പ്രദർശിപ്പിക്കും. സയൻസ്, എഞ്ചിനീയറിംഗ് മേഖലകളിൽ പ്രത്യേക താൽപ്പര്യമുള്ള വിദ്യാർത്ഥികൾക്ക് വിവിധ അത്യാധുനിക ഗവേഷണ മേഖലകളിൽ വിലപ്പെട്ട എക്സ്പോഷർ ലഭിക്കും. " +
+            "കുസാറ്റ് കാമ്പസിലെ നിരവധി ഗവേഷണ ലബോറട്ടറികളിലും ഡിപ്പാർട്ട്‌മെന്റുകളിലും പ്രകാശിപ്പിക്കുന്ന സന്ദർശനങ്ങൾക്കൊപ്പം കുസാറ്റ് സെമിനാർ സമുച്ചയത്തിൽ ഒന്നിലധികം പ്രദർശന സ്റ്റാളുകൾ ക്രമീകരിക്കും. കരിയർ ഓറിയന്റേഷൻ, കുസാറ്റിലെ വിവിധ പ്രോഗ്രാമുകൾ, ഇൻഡസ്ട്രി അക്കാദമിയ പങ്കാളിത്തം തുടങ്ങി വിവിധ വിഷയങ്ങളിൽ വിദഗ്ധ സംഭാഷണങ്ങൾ ഉണ്ടായിരിക്കും. ഈ അവസരത്തിൽ പങ്കെടുക്കാൻ നിങ്ങളെ എല്ലാവരെയും ഞങ്ങൾ സ്വാഗതം ചെയ്യുന്നു."
+    }
+    else{
+        document.getElementById("about-para").innerHTML="Cochin University of Science and Technology (CUSAT), re-accredited by NAAC\n" +
+            "                        with A+ grade is organizing this third edition of SASTHRAYAAN to showcase the vibrant and\n" +
+            "                        active research activities carried out in its various departments. The state-of-the-art\n" +
+            "                        facilities available in CUSAT will be exhibited with live demonstrations, working models and\n" +
+            "                        presentations. Students who are especially interested in Science and Engineering fields will\n" +
+            "                        get a valuable exposure on various cutting-edge research areas. Multiple exhibition stalls\n" +
+            "                        will be arranged at CUSAT Seminar complex along with illuminating visits to numerous\n" +
+            "                        research laboratories and departments in CUSAT campus. There will be expert talks in\n" +
+            "                        various topics including career orientation, various programmes in CUSAT,\n" +
+            "                        Industry Academia partnership etc. We welcome all of you to grace the occasion."
+    }
+     count=count+1;
 }
