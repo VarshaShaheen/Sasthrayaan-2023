@@ -152,8 +152,349 @@ const departments = [
         name: "Department of Chemical Oceanography ",
         website: "https://cusat.ac.in/cod.php"
     },
+    {
+        image:"https://cusat.ac.in/images/dept/phy_oce.jpg",
+        name: "Department of Physical Oceanography",
+        website: "https://cusat.ac.in/phy_oce.php",
+    },
+    {
+        image:"https://cusat.ac.in/images/dept/marinebio.jpg",
+        name: "Department of Marine Biology, Microbiology and Biochemistry",
+        website: "https://cusat.ac.in/marinebio.php"
+    },
+    {
+        image:"https://cusat.ac.in/images/dept/marinegeo.jpg",
+        name: "Department of Marine Geology and Geophysics",
+        website: "https://cusat.ac.in/marinegeo.php"
+    },
+    {
+        image:"https://cusat.ac.in/images/dept/sif.jpg",
+        name: "School of Industrial Fisheries",
+        website: "https://cusat.ac.in/if.php"
+    },
+    {
+        name: "Department of Applied Chemistry",
+        website: "https://cusat.ac.in/chem.php"
+    },
+    {
+        name: "Department of Biotechnology",
+        website: "https://cusat.ac.in/biotech.php"
+    },
+    {
+        name: "Department of Mathematics",
+        website: "https://cusat.ac.in/maths.php"
+    },
+    {
+        name: "Department of Physics",
+        website: "https://cusat.ac.in/physics.php"
+    },
+    {
+        name: "Department of Statistics",
+        website: "https://cusat.ac.in/stats.php"
+    },
+    {
+        name: "Centre for Integrated Studies",
+        website: "https://cusat.ac.in/cis.php"
+    },
+    {
+        name: "School of Legal Studies",
+        website: "https://cusat.ac.in/sls.php"
+    },
+    {
+        name: "Inter University Centre for IPR Studies",
+        website: "https://cusat.ac.in/ciprs.php"
+    },
+    {
+        name: "Department of Physical Education",
+        website: "http://dpe.cusat.ac.in/"
+    },
+    {
+        name: "Department of Youth Welfare",
+        website: "http://welfarecusat.in/"
+    },
+    {
+        name: "Department of Public Relations and Publications",
+        website: "https://cusat.ac.in/tejas.php"
+    },
+    {
+        name: "Advanced Centre for Atmospheric Radar Research (ACARR)",
+        website: "https://cusat.ac.in/acarr.php"
+    },
+    {
+        name: "Centre for Advanced Materials",
+        website: "https://cusat.ac.in/cam.php"
+    },
+    {
+        name: "Centre for Information Resource Management (CIRM)",
+        website: "https://cusat.ac.in/cirm.php"
+    },
+    {
+        name: "Centre for Neuroscience (CNS)",
+        website: "https://cusat.ac.in/cns.php"
+    },
+    {
+        name: "Centre for Science in Society (C-SIS)",
+        website: "https://cusat.ac.in/c-sis.php"
+    },
+    {
+        name: "Centre for the study of Social Exclusion and Inclusive Policy",
+        website: "https://cusat.ac.in/csseip.php"
+    },
+    {
+        name: "Centre for Innovation Technology Transfer and Industrial Collaboration (CITTIC)",
+        website: "https://cusat.ac.in/cittic.php"
+    },
+    {
+        name: "CUSAT - NCPOR Centre for Polar Science (CNCPS)",
+        website: "https://cusat.ac.in/ncpor.php"
+    },
+    {
+        name: "DDU Kaushal Kendras (DDUKK)",
+        website: "https://cusat.ac.in/ddukk.php"
+    },
+    {
+        name: "Inter University Centre for IPR Studies",
+        website: "https://cusat.ac.in/ciprs.php"
+    },
+    {
+        name: "Inter University Centre for Nanomaterials and Devices (IUCND)",
+        website: "https://cusat.ac.in/iucnd.php"
+    },
+    {
+        name: "Interdisciplinary Centre for Research in Ethics and Protocols(ICREP)",
+        website: "https://cusat.ac.in/icrep.php"
+    },
+    {
+        name: "Centre for Budget Studies",
+        website: "https://cusat.ac.in/cbs.php"
+    },
+    {
+        name: "National Centre for Aquatic Animal Health",
+        website: "https://cusat.ac.in/ncaah.php"
+    },
+    {
+        name: "Sophisticated Test and Instrumentation Centre (STIC)",
+        website: "https://cusat.ac.in/stic.php"
+    },
+    {
+        name: "UGC CELL for SC/ST",
+        website: "https://cusat.ac.in/ugcsct.php"
+    },
+    {
+        name: "Women's Studies Centre",
+        website: "https://cusat.ac.in/wsc.php"
+    }
 ];
 
 document.getElementById("tabs-1").innerHTML = departments.map(departmentCard).join('');
 
-
+const deps =
+[
+    {
+        name: "School of Engineering",
+        website: "https://cusat.ac.in/soe.php"
+    },
+    {
+        name: "Cochin University College of Engineering, Kuttanad",
+        website: "https://cusat.ac.in/cucek.php"
+    },
+    {
+        name: "Kunjali Marakkar School of Marine Engineering",
+        website: "https://cusat.ac.in/kmsme.php"
+    },
+    {
+        name: "Department of Computer Applications",
+        website: "https://cusat.ac.in/dca.php"
+    },
+    {
+        name: "Department of Computer Science",
+        website: "https://cusat.ac.in/dcs.php"
+    },
+    {
+        name: "Department of Electronics",
+        website: "https://cusat.ac.in/doe.php"
+    },
+    {
+        name: "Department of Instrumentation",
+        website: "https://cusat.ac.in/din.php"
+    },
+    {
+        name: "International School of Photonics",
+        website: "https://cusat.ac.in/photonics.php"
+    },
+    {
+        name: "Department of Polymer Science and Rubber Technology",
+        website: "https://cusat.ac.in/psrt.php"
+    },
+    {
+        name: "Department of Ship Technology",
+        website: "https://cusat.ac.in/shiptech.php"
+    },
+    {
+        name: "School of Environmental Studies",
+        website: "https://cusat.ac.in/ses.php"
+    },
+    {
+        name: "National Centre for Aquatic Animal Health",
+        website: "https://cusat.ac.in/ncaah.php"
+    },
+    {
+        name: "Department of English and Foreign Languages",
+        website: "https://cusat.ac.in/defl.php"
+    },
+    {
+        name: "Department of Hindi",
+        website: "https://cusat.ac.in/hindi.php"
+    },
+    {
+        name: "Department of Applied Economics",
+        website: "https://cusat.ac.in/dae.php"
+    },
+    {
+        name: "School of Management Studies",
+        website: "https://cusat.ac.in/sms.php"
+    },
+    {
+        name: "DDU Kaushal Kendras (DDUKK)",
+        website: "https://cusat.ac.in/ddukk.php"
+    },
+    {
+        name: "School of Marine Sciences",
+        website: "https://www.smscusat.in/"
+    },
+    {
+        name: "Department of Atmospheric Sciences",
+        website: "https://cusat.ac.in/das.php"
+    },
+    {
+        name: "Department of Chemical Oceanography",
+        website: "https://cusat.ac.in/cod.php"
+    },
+    {
+        name: "Department of Physical Oceanography",
+        website: "https://cusat.ac.in/phy_oce.php"
+    },
+    {
+        name: "Department of Marine Biology, Microbiology and Biochemistry",
+        website: "https://cusat.ac.in/marinebio.php"
+    },
+    {
+        name: "Department of Marine Geology and Geophysics",
+        website: "https://cusat.ac.in/marinegeo.php"
+    },
+    {
+        name: "School of Industrial Fisheries",
+        website: "https://cusat.ac.in/if.php"
+    },
+    {
+        name: "Department of Applied Chemistry",
+        website: "https://cusat.ac.in/chem.php"
+    },
+    {
+        name: "Department of Biotechnology",
+        website: "https://cusat.ac.in/biotech.php"
+    },
+    {
+        name: "Department of Mathematics",
+        website: "https://cusat.ac.in/maths.php"
+    },
+    {
+        name: "Department of Physics",
+        website: "https://cusat.ac.in/physics.php"
+    },
+    {
+        name: "Department of Statistics",
+        website: "https://cusat.ac.in/stats.php"
+    },
+    {
+        name: "Centre for Integrated Studies",
+        website: "https://cusat.ac.in/cis.php"
+    },
+    {
+        name: "School of Legal Studies",
+        website: "https://cusat.ac.in/sls.php"
+    },
+    {
+        name: "Inter University Centre for IPR Studies",
+        website: "https://cusat.ac.in/ciprs.php"
+    },
+    {
+        name: "Department of Physical Education",
+        website: "http://dpe.cusat.ac.in/"
+    },
+    {
+        name: "Department of Youth Welfare",
+        website: "http://welfarecusat.in/"
+    },
+    {
+        name: "Department of Public Relations and Publications",
+        website: "https://cusat.ac.in/tejas.php"
+    },
+    {
+        name: "Advanced Centre for Atmospheric Radar Research (ACARR)",
+        website: "https://cusat.ac.in/acarr.php"
+    },
+    {
+        name: "Centre for Advanced Materials",
+        website: "https://cusat.ac.in/cam.php"
+    },
+    {
+        name: "Centre for Information Resource Management (CIRM)",
+        website: "https://cusat.ac.in/cirm.php"
+    },
+    {
+        name: "Centre for Neuroscience (CNS)",
+        website: "https://cusat.ac.in/cns.php"
+    },
+    {
+        name: "Centre for Science in Society (C-SIS)",
+        website: "https://cusat.ac.in/c-sis.php"
+    },
+    {
+        name: "Centre for the study of Social Exclusion and Inclusive Policy",
+        website: "https://cusat.ac.in/csseip.php"
+    },
+    {
+        name: "Centre for Innovation Technology Transfer and Industrial Collaboration (CITTIC)",
+        website: "https://cusat.ac.in/cittic.php"
+    },
+    {
+        name: "CUSAT - NCPOR Centre for Polar Science (CNCPS)",
+        website: "https://cusat.ac.in/ncpor.php"
+    },
+    {
+        name: "DDU Kaushal Kendras (DDUKK)",
+        website: "https://cusat.ac.in/ddukk.php"
+    },
+    {
+        name: "Inter University Centre for IPR Studies",
+        website: "https://cusat.ac.in/ciprs.php"
+    },
+    {
+        name: "Inter University Centre for Nanomaterials and Devices (IUCND)",
+        website: "https://cusat.ac.in/iucnd.php"
+    },
+    {
+        name: "Interdisciplinary Centre for Research in Ethics and Protocols(ICREP)",
+        website: "https://cusat.ac.in/icrep.php"
+    },
+    {
+        name: "Centre for Budget Studies",
+        website: "https://cusat.ac.in/cbs.php"
+    },
+    {
+        name: "National Centre for Aquatic Animal Health",
+        website: "https://cusat.ac.in/ncaah.php"
+    },
+    {
+        name: "Sophisticated Test and Instrumentation Centre (STIC)",
+        website: "https://cusat.ac.in/stic.php"
+    },
+    {
+        "name": "UGC CELL for SC/ST",
+        website: "https://cusat.ac.in/ugcsct.php"
+    },
+    {
+        "name": "Women's Studies Centre",
+        website: "https://cusat.ac.in/wsc.php"
+    }]
