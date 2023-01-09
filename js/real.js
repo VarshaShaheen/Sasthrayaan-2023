@@ -89,7 +89,7 @@ const departments = [
     },
     {
         image: "https://cusat.ac.in/images/dept/photonics.jpg",
-        name: "International SChool Of Photonics",
+        name: "International School Of Photonics",
         website: "https://cusat.ac.in/photonics.php"
     },
     {
@@ -138,7 +138,7 @@ const departments = [
         website: "https://cusat.ac.in/ddukk.php"
     },
     {
-        image: "https://lh3.googleusercontent.com/G5Br8hjH_FLlxhTbIogXk2tEoiCf-mPd6QZBAmftYuRkiCqVvJPdtljFQBwfvXpNHv0a5lgWP9zkvwbqITnegtAgbbGLL5QKcUynrrsYlMPCuyYICmY985or-nOpA4cQCVEsgCuEdr7Re0ePc-fsyDWg90FhqUqzR4z9K5KLOxqYESX6o1LxaA=w1280",
+        image: "data:image/jpeg;base64,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",
         name: "School of Marine Sciences",
         website: "https://www.smscusat.in/"
     },
@@ -173,328 +173,148 @@ const departments = [
         website: "https://cusat.ac.in/if.php"
     },
     {
+        image: "https://chem.cusat.ac.in/wp-content/themes/sayidan/images/logo.jpg",
         name: "Department of Applied Chemistry",
         website: "https://cusat.ac.in/chem.php"
     },
     {
+        image:"https://cusat.ac.in/images/dept/biotech.jpg",
         name: "Department of Biotechnology",
         website: "https://cusat.ac.in/biotech.php"
     },
     {
+        image:"https://cusat.ac.in/images/dept/maths.jpg",
         name: "Department of Mathematics",
         website: "https://cusat.ac.in/maths.php"
     },
     {
+        image:"https://cusat.ac.in/images/dept/physics.jpg",
         name: "Department of Physics",
         website: "https://cusat.ac.in/physics.php"
     },
     {
+        image:"https://cusat.ac.in/images/dept/stats.jpg",
         name: "Department of Statistics",
         website: "https://cusat.ac.in/stats.php"
     },
     {
+        image:"https://cusat.ac.in/images/dept/cis.jpg",
         name: "Centre for Integrated Studies",
         website: "https://cusat.ac.in/cis.php"
     },
     {
+        image:"https://cusat.ac.in/images/h-about.jpg",
         name: "School of Legal Studies",
         website: "https://cusat.ac.in/sls.php"
     },
     {
+        image:"https://cusat.ac.in/images/dept/ciprs.jpg",
         name: "Inter University Centre for IPR Studies",
         website: "https://cusat.ac.in/ciprs.php"
     },
     {
+        image:"data:image/jpeg;base64,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",
         name: "Department of Physical Education",
         website: "http://dpe.cusat.ac.in/"
     },
     {
+        image:"data:image/png;base64,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",
         name: "Department of Youth Welfare",
         website: "http://welfarecusat.in/"
     },
     {
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-kKUQ_qMQo_8cc6m25MVDF55wsEq7RoHN6g&usqp=CAU",
         name: "Department of Public Relations and Publications",
         website: "https://cusat.ac.in/tejas.php"
     },
     {
+        image:"https://cusat.ac.in/images/dept/acarr.jpg",
         name: "Advanced Centre for Atmospheric Radar Research (ACARR)",
         website: "https://cusat.ac.in/acarr.php"
     },
     {
+        image:"https://cusat.ac.in/images/dept/cam.jpg",
         name: "Centre for Advanced Materials",
         website: "https://cusat.ac.in/cam.php"
     },
     {
+        image:"https://cusat.ac.in/images/dept/cirm.jpg",
         name: "Centre for Information Resource Management (CIRM)",
         website: "https://cusat.ac.in/cirm.php"
     },
     {
+        image:"https://cusat.ac.in/images/dept/cns.png",
         name: "Centre for Neuroscience (CNS)",
         website: "https://cusat.ac.in/cns.php"
     },
     {
+        image:"https://cusat.ac.in/images/dept/c-sis.jpg",
         name: "Centre for Science in Society (C-SIS)",
         website: "https://cusat.ac.in/c-sis.php"
     },
     {
+        image:"https://cusat.ac.in/images/h-about.jpg",
         name: "Centre for the study of Social Exclusion and Inclusive Policy",
         website: "https://cusat.ac.in/csseip.php"
     },
     {
+        image:"https://cusat.ac.in/images/dept/cittic.jpg",
         name: "Centre for Innovation Technology Transfer and Industrial Collaboration (CITTIC)",
         website: "https://cusat.ac.in/cittic.php"
     },
     {
+        image:"https://cusat.ac.in/images/dept/cncps.jpg",
         name: "CUSAT - NCPOR Centre for Polar Science (CNCPS)",
         website: "https://cusat.ac.in/ncpor.php"
     },
     {
+        image:"https://cusat.ac.in/images/dept/ddukk.jpg",
         name: "DDU Kaushal Kendras (DDUKK)",
         website: "https://cusat.ac.in/ddukk.php"
     },
     {
+        image:"https://cusat.ac.in/images/dept/ciprs.jpg",
         name: "Inter University Centre for IPR Studies",
         website: "https://cusat.ac.in/ciprs.php"
     },
     {
+        image:"https://cusat.ac.in/images/dept/iucnd.jpg",
         name: "Inter University Centre for Nanomaterials and Devices (IUCND)",
         website: "https://cusat.ac.in/iucnd.php"
     },
     {
+        image:"https://cusat.ac.in/images/h-about.jpg",
         name: "Interdisciplinary Centre for Research in Ethics and Protocols(ICREP)",
         website: "https://cusat.ac.in/icrep.php"
     },
     {
+        image:"https://cusat.ac.in/images/dept/cbs.jpg",
         name: "Centre for Budget Studies",
         website: "https://cusat.ac.in/cbs.php"
     },
     {
+        image:"https://cusat.ac.in/images/dept/ncaah.jpg",
         name: "National Centre for Aquatic Animal Health",
         website: "https://cusat.ac.in/ncaah.php"
     },
     {
+        image:"https://cusat.ac.in/images/dept/stic.jpg",
         name: "Sophisticated Test and Instrumentation Centre (STIC)",
         website: "https://cusat.ac.in/stic.php"
     },
     {
+        image:"https://cusat.ac.in/images/dept/ugcsct.jpg",
         name: "UGC CELL for SC/ST",
         website: "https://cusat.ac.in/ugcsct.php"
     },
     {
+        image:"https://cusat.ac.in/images/dept/wsc.jpg",
         name: "Women's Studies Centre",
         website: "https://cusat.ac.in/wsc.php"
     }
 ];
 
+
+
 document.getElementById("tabs-1").innerHTML = departments.map(departmentCard).join('');
 
-const deps =
-[
-    {
-        name: "School of Engineering",
-        website: "https://cusat.ac.in/soe.php"
-    },
-    {
-        name: "Cochin University College of Engineering, Kuttanad",
-        website: "https://cusat.ac.in/cucek.php"
-    },
-    {
-        name: "Kunjali Marakkar School of Marine Engineering",
-        website: "https://cusat.ac.in/kmsme.php"
-    },
-    {
-        name: "Department of Computer Applications",
-        website: "https://cusat.ac.in/dca.php"
-    },
-    {
-        name: "Department of Computer Science",
-        website: "https://cusat.ac.in/dcs.php"
-    },
-    {
-        name: "Department of Electronics",
-        website: "https://cusat.ac.in/doe.php"
-    },
-    {
-        name: "Department of Instrumentation",
-        website: "https://cusat.ac.in/din.php"
-    },
-    {
-        name: "International School of Photonics",
-        website: "https://cusat.ac.in/photonics.php"
-    },
-    {
-        name: "Department of Polymer Science and Rubber Technology",
-        website: "https://cusat.ac.in/psrt.php"
-    },
-    {
-        name: "Department of Ship Technology",
-        website: "https://cusat.ac.in/shiptech.php"
-    },
-    {
-        name: "School of Environmental Studies",
-        website: "https://cusat.ac.in/ses.php"
-    },
-    {
-        name: "National Centre for Aquatic Animal Health",
-        website: "https://cusat.ac.in/ncaah.php"
-    },
-    {
-        name: "Department of English and Foreign Languages",
-        website: "https://cusat.ac.in/defl.php"
-    },
-    {
-        name: "Department of Hindi",
-        website: "https://cusat.ac.in/hindi.php"
-    },
-    {
-        name: "Department of Applied Economics",
-        website: "https://cusat.ac.in/dae.php"
-    },
-    {
-        name: "School of Management Studies",
-        website: "https://cusat.ac.in/sms.php"
-    },
-    {
-        name: "DDU Kaushal Kendras (DDUKK)",
-        website: "https://cusat.ac.in/ddukk.php"
-    },
-    {
-        name: "School of Marine Sciences",
-        website: "https://www.smscusat.in/"
-    },
-    {
-        name: "Department of Atmospheric Sciences",
-        website: "https://cusat.ac.in/das.php"
-    },
-    {
-        name: "Department of Chemical Oceanography",
-        website: "https://cusat.ac.in/cod.php"
-    },
-    {
-        name: "Department of Physical Oceanography",
-        website: "https://cusat.ac.in/phy_oce.php"
-    },
-    {
-        name: "Department of Marine Biology, Microbiology and Biochemistry",
-        website: "https://cusat.ac.in/marinebio.php"
-    },
-    {
-        name: "Department of Marine Geology and Geophysics",
-        website: "https://cusat.ac.in/marinegeo.php"
-    },
-    {
-        name: "School of Industrial Fisheries",
-        website: "https://cusat.ac.in/if.php"
-    },
-    {
-        name: "Department of Applied Chemistry",
-        website: "https://cusat.ac.in/chem.php"
-    },
-    {
-        name: "Department of Biotechnology",
-        website: "https://cusat.ac.in/biotech.php"
-    },
-    {
-        name: "Department of Mathematics",
-        website: "https://cusat.ac.in/maths.php"
-    },
-    {
-        name: "Department of Physics",
-        website: "https://cusat.ac.in/physics.php"
-    },
-    {
-        name: "Department of Statistics",
-        website: "https://cusat.ac.in/stats.php"
-    },
-    {
-        name: "Centre for Integrated Studies",
-        website: "https://cusat.ac.in/cis.php"
-    },
-    {
-        name: "School of Legal Studies",
-        website: "https://cusat.ac.in/sls.php"
-    },
-    {
-        name: "Inter University Centre for IPR Studies",
-        website: "https://cusat.ac.in/ciprs.php"
-    },
-    {
-        name: "Department of Physical Education",
-        website: "http://dpe.cusat.ac.in/"
-    },
-    {
-        name: "Department of Youth Welfare",
-        website: "http://welfarecusat.in/"
-    },
-    {
-        name: "Department of Public Relations and Publications",
-        website: "https://cusat.ac.in/tejas.php"
-    },
-    {
-        name: "Advanced Centre for Atmospheric Radar Research (ACARR)",
-        website: "https://cusat.ac.in/acarr.php"
-    },
-    {
-        name: "Centre for Advanced Materials",
-        website: "https://cusat.ac.in/cam.php"
-    },
-    {
-        name: "Centre for Information Resource Management (CIRM)",
-        website: "https://cusat.ac.in/cirm.php"
-    },
-    {
-        name: "Centre for Neuroscience (CNS)",
-        website: "https://cusat.ac.in/cns.php"
-    },
-    {
-        name: "Centre for Science in Society (C-SIS)",
-        website: "https://cusat.ac.in/c-sis.php"
-    },
-    {
-        name: "Centre for the study of Social Exclusion and Inclusive Policy",
-        website: "https://cusat.ac.in/csseip.php"
-    },
-    {
-        name: "Centre for Innovation Technology Transfer and Industrial Collaboration (CITTIC)",
-        website: "https://cusat.ac.in/cittic.php"
-    },
-    {
-        name: "CUSAT - NCPOR Centre for Polar Science (CNCPS)",
-        website: "https://cusat.ac.in/ncpor.php"
-    },
-    {
-        name: "DDU Kaushal Kendras (DDUKK)",
-        website: "https://cusat.ac.in/ddukk.php"
-    },
-    {
-        name: "Inter University Centre for IPR Studies",
-        website: "https://cusat.ac.in/ciprs.php"
-    },
-    {
-        name: "Inter University Centre for Nanomaterials and Devices (IUCND)",
-        website: "https://cusat.ac.in/iucnd.php"
-    },
-    {
-        name: "Interdisciplinary Centre for Research in Ethics and Protocols(ICREP)",
-        website: "https://cusat.ac.in/icrep.php"
-    },
-    {
-        name: "Centre for Budget Studies",
-        website: "https://cusat.ac.in/cbs.php"
-    },
-    {
-        name: "National Centre for Aquatic Animal Health",
-        website: "https://cusat.ac.in/ncaah.php"
-    },
-    {
-        name: "Sophisticated Test and Instrumentation Centre (STIC)",
-        website: "https://cusat.ac.in/stic.php"
-    },
-    {
-        "name": "UGC CELL for SC/ST",
-        website: "https://cusat.ac.in/ugcsct.php"
-    },
-    {
-        "name": "Women's Studies Centre",
-        website: "https://cusat.ac.in/wsc.php"
-    }]
