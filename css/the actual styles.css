@@ -39,7 +39,8 @@
     perspective: 100px;
 }
 img{
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
     transition: transform 1s;
 }
 img:hover{
