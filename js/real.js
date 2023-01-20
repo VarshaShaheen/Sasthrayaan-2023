@@ -52,7 +52,8 @@ const departments = [
     {
         image: "https://cusat.ac.in/images/dept/biotech.jpg",
         name: "Department of Biotechnology",
-        website: "https://biochemistry.cusat.ac.in/"
+        website: "https://biochemistry.cusat.ac.in/",
+        video: ""
     },
     {
         image: "https://cusat.ac.in/images/dept/cucek.jpg",
@@ -63,7 +64,8 @@ const departments = [
     {
         image: "https://cusat.ac.in/images/dept/kmsme.jpg",
         name: "Kunjali Marakkar School of Marine Engineering",
-        website: "https://cusat.ac.in/kmsme.php"
+        website: "https://cusat.ac.in/kmsme.php",
+        video: "https://drive.google.com/file/d/1MUuA0bfiQV01I-piMzgrMn2xFjYm8uxL/view"
     },
     {
         image: "https://cusat.ac.in/images/dept/stats.jpg",
@@ -136,7 +138,8 @@ const departments = [
     {
         image: "https://cusat.ac.in/images/dept/dae.jpg",
         name: "Department of Applied Economics",
-        website: "https://cusat.ac.in/dae.php"
+        website: "https://cusat.ac.in/dae.php",
+        video: ""
     },
     {
         image: "https://cusat.ac.in/images/dept/sms.jpg",
